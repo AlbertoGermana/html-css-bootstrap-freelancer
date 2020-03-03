@@ -70,7 +70,7 @@ p{
 
 /* header */
 header{
-  padding-top: calc(134px + 96px);
+  padding-top: 134px;
 }
 header img{
   width: 240px;
