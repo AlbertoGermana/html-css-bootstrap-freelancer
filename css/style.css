@@ -160,6 +160,10 @@ header img{
     display: block;
     margin: auto 30px;
   }
+
+  #hamb_menu>a:hover{
+
+  }
 }
 @media all and (min-width:768px){
   #hamb_menu{
