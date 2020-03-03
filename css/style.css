@@ -67,7 +67,13 @@ p{
   margin: 0 14px;
   text-decoration: none;
 }
-
+#nav_first{
+  float: left;
+  margin: auto 30px;
+}
+#hamb_menu, #nav_menu{
+  float: right;
+}
 /* header */
 header{
   padding-top: 134px;
@@ -146,3 +152,17 @@ header img{
     display: block;
     margin: 25px auto;
   }
+@media all and (max-width:767px){
+  #nav_menu{
+    display: none;
+  }
+  #hamb_menu{
+    display: block;
+    margin: auto 30px;
+  }
+}
+@media all and (min-width:768px){
+  #hamb_menu{
+    display: none;
+  }
+}
