@@ -67,6 +67,20 @@ header img{
       width: auto;
     }
 
+/* sezioni verdi */
+  /* sezione about */
+  .btn_white_transparent{
+    background: none;
+    color: white;
+    padding: 16px 28px;
+    border: 2px solid white;
+  }
+  .btn_white_transparent:hover{
+    background: white;
+    color: black;
+    padding: 16px 28px;
+    border: 2px solid white;
+  }
 
 
 /*
