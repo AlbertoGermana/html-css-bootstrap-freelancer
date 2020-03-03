@@ -1,0 +1,97 @@
+/* cabin cake circus game safe submarine  */
+img{
+  width: auto;
+  height: 250px;
+}
+header img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header, section{
+  margin: 50px 0;
+}
+.portfolio_item{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.portfolio_item>div>img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+ul{
+  padding-left: 0;
+}
+ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+a,a:hover{
+  text-decoration: none;
+}
+#navbar_1{
+  height: 105px;
+  background-color: #2c3e50;
+  font-size: 24px;
+}
+#navbar_1 a,#navbar_1 a:hover{
+  color: white;
+  font-weight: bolder;
+  margin: 0 14px;
+}
+#navbar_1 div{
+  margin: 32px 0;
+}
+#start_bootstrap{
+  margin-top: 105px;
+  background-color: #1abc9c;
+  color: white;
+  font-weight: bolder;
+}
+p{
+  font-size: 24px;
+}
+.darkslategray{
+  color: #2c3e50;
+}
+.white{
+  color: white;
+}
+#divisiorio>div{
+  display: inline-block;
+}
+.divider{
+  width: 100%;
+  max-width: 7rem;
+  height: .25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50!important;
+}
+
+.star, .divider{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#about{
+  background-color: #1abc9c;
+  color: white;
+}
+#around_the_web li{
+  font-size: 32px;
+  margin: 0 7px;
+}
+.contenitore_max_1200{
+  max-width: 1200px;
+  display: block;
+  margin: 50px auto;
+}
+.cleafix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
