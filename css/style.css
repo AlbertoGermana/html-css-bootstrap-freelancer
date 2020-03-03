@@ -37,9 +37,10 @@ h4{
 }
 p{
   font-weight: 300;
+  padding: 34px;
 }
 .divider{
-  width: 400px;
+  width: 328px;
   display: block;
   margin: 25px auto;
 }
@@ -107,6 +108,12 @@ header img{
       border: 2px solid #1abc9c;
     }
 
+    .no-border{
+      border: none;
+      border-bottom: 1px solid lightgray;
+      box-shadow: none;
+      border-radius: 0;
+    }
 
 /* sezioni verdi */
   /* sezione about */
